@@ -3,84 +3,306 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="video streaming site, watch hight quality films"
     />
     <title>Square Eyes |Home page</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/c084a66896.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <a href="index.html" class="logo">Square Eyes</a>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Square_eyes_logo_xs.PNG" alt="logo" />
+        </a>
+      </div>
+      <label for="hamburger_menu" class="hamburger_icon">
+        <i class="fas fa-bars"></i>
+      </label>
+      <input type="checkbox" id="hamburger_checkbox" />
       <nav>
         <ul>
-          <li>home</li>
-          <li>search</li>
-          <li>movies</li>
-          <li>watchlist</li>
-          <li>my account</li>
-          <li>sign out</li>
+          <li>
+            <a href="home_page.html" class="active">Home </a>
+          </li>
+          <li>
+            <a href="search_page.html">Search</a>
+          </li>
+          <li><a href="movie_page.html">Movies</a></li>
+          <li>
+            <i class="far fa-heart">
+              <a href="watch_list.html">Watchlist</a>
+            </i>
+          </li>
+          <li>
+            <a href="my_account.html">My Account</a>
+          </li>
+          <li>
+            <a href="index.html">Sign out</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="released_today">
-        <h1>The world beyond</h1>
-        <p>released today</p>
-        <p>
-          The discription about the movie, Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Distinctio quaerat veritatis at officia
-          laudantium pariatur recusandae et excepturi quibusdam, quia rerum
-          facere culpa voluptas fuga omnis, incidunt id amet officiis?
-        </p>
-        <a href="pay_per_view.html" class="buy_now">buy now</a>
-        <img src="#" alt="picture of a man and a child infornt of a spaceship">
-        <img src="#" alt="a heart">
-        </section>
-        <section class="premiere">
-            <h2>Movie name Lorem ipsum</h2>
-            <p>premiere</p>
-            <p>USD 5,-</p>
-            <p>2021-Sci-FI-92min </p>
+        <div class="released_today_info">
+          <h1>Released today</h1>
+        </div>
+        <div class="The_world_beyond">
+          <h2>The world beyond</h2>
+          <p>
+            The discription about the movie <br />Lorem ipsum dolor sit amet
+            consectetur.<br />
+            Distinctio quaerat veritatis at officia laudantium <br />
+          </p>
+        </div>
+        <div class="released_today">
+          <img
+            src="images/The_world_beyond.jpg"
+            alt="The world beyond"
+            class="Image_movie_the_world_beyond"
+          />
+          <div class="buy_now_large">
             <a href="pay_per_view.html" class="buy_now">buy now</a>
-            <img src="#" alt="picture of a cat chasing a lightball">
-            <img src="#" alt="a heart">
-            <img src="#" alt="rating star">
-           <h2>Movie name Lorem ipsum</h2>
-            <p>premiere</p>
-            <p>USD 5,-</p>
-            <p>2021-Sci-FI-92min</p>
-            <a href="pay_per_view.html" class="buy_now">buy now</a>
-            <img src="#" alt="picture of a couple anjoy eachothers company">
-            <img src="#" alt="a heart">
-            <img src="#" alt="rating star">
-            h2>Movie name Lorem ipsum</h2>
-            <p>premiere</p>
-            <p>USD 5,-</p>
-            <p>2021-Sci-FI-92min</p>
-            <a href="pay_per_view.html" class="buy_now">buy now</a>
-            <img src="#" alt="picture of a man carrying a wommen during sunet">
-            <img src="#" alt="a heart">
-            <img src="#" alt="rating star">
-            h2>Movie name Lorem ipsum</h2>
-            <p>premiere</p>
+          </div>
+        </div>
+      </section>
+      <section class="premiere">
+        <div class="premiere">
+          <h2>Premiere</h2>
+        </div>
+        <div id="content_premiere">
+          <div class="premiere">
+            <img src="images/A_cats_tale.jpg" alt="A cats tale" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
             <p>USD 5,-</p>
             <p>2021-Sci-FI-92min</p>
             <a href="pay_per_view.html" class="buy_now">buy now</a>
-            <img src="#" alt="picture of a boy walking in a mystic wood">
-            <img src="#" alt="a heart">
-            <img src="#" alt="rating star">
-        </section>
-        <section class="Trending">
-            <h2>Trending</h2>
-
-
-
-
-
+          </div>
+          <div class="premiere">
+            <img
+              src="images/A_funny_vacation_in_italy_xs.jpg"
+              alt="A funny vacation in italy"
+            />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now">buy now</a>
+          </div>
+          <div class="premiere">
+            <img
+              src="images/Love_you_eternity_xs.jpg"
+              alt="Love you eternity"
+            />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now">buy now</a>
+          </div>
+          <div class="premiere">
+            <img
+              src="images/fairy-tale-forest_xs.jpg"
+              alt="Fairy tale forest"
+            />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now">buy now</a>
+          </div>
+        </div>
+      </section>
+      <!--Trending-->
+      <section class="trending">
+        <div class="trending_heading">
+          <h2>Trending</h2>
+        </div>
+        <div id="content_trending">
+          <div class="trending">
+            <img src="images/Dark star_xs.jpg" alt="Dark star" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+          <div class="trending">
+            <img src="images/A_quiet_place_xs.jpg" alt="A quiet place" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+          <div class="trending">
+            <img src="images/Another_earth_xs.jpg" alt="Another earth" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+          <div class="trending">
+            <img src="images/Reign_of_fire_xs.jpg" alt="Reign of fire" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+          <div class="trending">
+            <img src="images/Life_xs.jpg" alt="Life" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+        </div>
+      </section>
+      <!--most viewed-->
+      <section class="most_viewed">
+        <div class="most_viewed_heading">
+          <h2>Most viewed</h2>
+        </div>
+        <div id="content_trending">
+          <div class="movies">
+            <img src="images/How_it_ends_xs.jpg" alt="How it ends" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+          <div class="movies">
+            <img src="images/Searching_xs.jpg" alt="Searching" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+          <div class="movies">
+            <img src="images/Don't_breathe_xs.jpg" alt="Don't breathe" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+          <div class="movies">
+            <img src="images/Red_riding_hood_xs.jpg" alt="Red riding hood" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+          <div class="movies">
+            <img src="images/Alpha_xs.jpg" alt="Alpha" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+        </div>
       </section>
     </main>
+    <footer>Copyright &copy;</footer>
   </body>
 </html>
