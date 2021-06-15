@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="author" content="Aina Bjerke" />
+    <meta
+      name="keywords"
+      content="movies, film, pay per view,new films,buy films"
+    />
+    <meta
+      name="keywords"
+      content="movies, film, pay per view,new films,buy films"
+    />
     <meta
       name="description"
-      content="video streaming site, watch hight quality films"
+      content="Love to watch hd movie? We offer movies in all categories"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Square Eyes |Movie page</title>
     <link href="css/styles.css" rel="stylesheet" />
     <script
@@ -17,22 +26,204 @@
   </head>
   <body>
     <header>
-      <a href="index.html" class="logo">Square Eyes</a>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Square_eyes_logo_xs.PNG" alt="logo" />
+        </a>
+      </div>
+      <label for="hamburger_menu" class="hamburger_icon">
+        <i class="fas fa-bars"></i>
+      </label>
+      <input type="checkbox" id="hamburger_checkbox" />
       <nav>
-        <ul>
-          <li><a href="home_page.html">Home </a></li>
-          <li><a href="search_page.html">Search</a></li>
-          <li><a href="movie_page.html" class="active">Movies</a></li>
+        <ul class="topnav">
           <li>
-            <i class="far fa-heart"> <a href="watch_list.html">Watchlist</a></i>
+            <a href="home_page.html">Home </a>
           </li>
-          <li><a href="my_account.html">My Account</a></li>
-          <li><a href="index.html">Sign out</a></li>
+          <li>
+            <a href="search_page.html">Search</a>
+          </li>
+          <li><a href="movie_page.html" class="active">Movies</a></li>
+
+          <li>
+            <a href="my_account.html">My Account</a>
+          </li>
+          <li>
+            <a href="index.html">Sign out</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section></section>
+      <!--Movies-->
+      <section class="movie_page">
+        <div class="movie_page_heading">
+          <h1>Action</h1>
+        </div>
+        <div id="content_movies">
+          <div class="movies">
+            <img src="images/The_world_beyond_xs.jpg" alt="The world beyond" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+
+          <div class="movies">
+            <img src="images/Fury_xs.jpg" alt="Fury" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+
+          <div class="movies">
+            <img src="images/the_future_xs.jpg" alt="The future" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+
+          <div class="movies">
+            <img src="images/revenge_xs.jpg" alt="revenge" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+
+          <div class="movies">
+            <img src="images/one_jump_xs.jpg" alt="Life" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+        </div>
+      </section>
+
+      <!--Animation Movies-->
+      <section class="animation_movies">
+        <div class="animation_heading">
+          <h2>Animation</h2>
+        </div>
+        <div id="content_animation_movies">
+          <div class="animation">
+            <img src="images/horizon_xs.jpg" alt="Horizon" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+
+          <div class="movies">
+            <img src="images/to_morrow_xs.jpg" alt="to morrow" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+
+          <div class="movies">
+            <img src="images/light_house_xs.jpg" alt="light house" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+
+          <div class="movies">
+            <img src="images/cinderella_xs.jpg" alt="Red riding hood" />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+
+          <div class="movies">
+            <img
+              src="images/never_ending_story_xs.jpg"
+              alt="Never ending story"
+            />
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h3>Movie name lorem ipsum</h3>
+            <p>USD 5,-</p>
+            <p>2021-Sci-FI-92min</p>
+            <a href="pay_per_view.html" class="buy_now_small">buy now</a>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>Copyright &copy;</footer>
   </body>
 </html>

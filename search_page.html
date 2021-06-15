@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="author" content="Aina Bjerke" />
+    <meta
+      name="keywords"
+      content="movies, film, pay per view,new films,buy films"
+    />
     <meta
       name="description"
-      content="video streaming site, watch hight quality films"
+      content="One click away to enjoy a great movie night"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Square Eyes |Search page</title>
     <link href="css/styles.css" rel="stylesheet" />
     <script
@@ -15,25 +20,42 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <header>
-      <a href="index.html"><img src="images/Square_eyes_logo.PNG" /></a>
-      <a href="index.html" class="logo">Square Eyes</a>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Square_eyes_logo_xs.PNG" alt="logo" />
+        </a>
+      </div>
+      <label for="hamburger_menu" class="hamburger_icon">
+        <i class="fas fa-bars"></i>
+      </label>
+      <input type="checkbox" id="hamburger_checkbox" />
       <nav>
-        <ul>
+        <ul class="topnav">
           <li><a href="home_page.html">Home </a></li>
           <li><a href="search_page.html" class="active">Search</a></li>
           <li><a href="movie_page.html">Movies</a></li>
-          <li>
-            <i class="far fa-heart"> <a href="watch_list.html">Watchlist</a></i>
-          </li>
           <li><a href="my_account.html">My Account</a></li>
           <li><a href="index.html">Sign out</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section></section>
+      <!--Movies-->
+      <section class="search_page_sign_in_form_box">
+        <div class="search_header-text">
+          <h1>Search movie</h1>
+        </div>
+        <div class="search_input">
+          <input placeholder="Movie name" type="text" />
+        </div>
+        <div class="search_input_button">
+          <a href="movie_page.html">Search</a>
+        </div>
+      </section>
     </main>
+    <footer>Copyright &copy;</footer>
   </body>
 </html>
