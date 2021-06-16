@@ -17,7 +17,7 @@
 
 .get_started {
   position: relative;
-  padding: 0px 80px;
+  padding: 0px 73px;
   padding-top: 10px;
   top: 5px;
 }
@@ -185,13 +185,27 @@
 
   .create_account_cta {
     position: relative;
-    padding: 12px 21px;
+    padding: 12px 10px;
+    margin-bottom: 35px;
+    left: -13px;
+  }
+
+  .create_account_cta:hover {
+    position: relative;
+    padding: 12px 8px;
     margin-bottom: 35px;
   }
 
   .sign_in_cta {
     position: relative;
-    padding: 10px 40px;
+    padding: 10px 29px;
+    left: -13px;
+  }
+
+  .sign_in_cta:hover {
+    position: relative;
+    padding: 12px 25px;
+    margin-bottom: 35px;
   }
 
   .create_account_cta_main {
