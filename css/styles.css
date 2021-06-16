@@ -630,7 +630,7 @@
 @media screen and (max-width: 602px) {
   .watcher_sign_in_form_box {
     width: 322px;
-    height: 712px;
+    height: 748px;
     top: 20px;
   }
   .watcher_sign_in_input input {
@@ -642,7 +642,7 @@
 @media screen and (min-width: 604px) {
   .watcher_sign_in_form_box {
     width: 504px;
-    height: 686px;
+    height: 775px;
     top: 20px;
   }
 
@@ -717,7 +717,7 @@
 @media screen and (min-width: 603px) {
   .producer_sign_in_form_box {
     top: 25px;
-    height: 750px;
+    height: 803px;
   }
   .producer_sign_in_input input {
     margin: 10px 0px;
